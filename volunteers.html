@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<title>Volunteers | GUWALI</title>
+</head>
+<body class="body" style=" background: #4A4A4A; color: #ffffff;">
+	<!--logo and name-->
+	<div class="page-header text-center" style="border: none; margin: 3px 0 53px;">
+		<div class="container">
+				
+			<div class="col-md-2">
+				<a href="index.html" class="navbar-brand"><img src="images/logo.png" class="pull-left" width="100" style="border-radius: 50%;"></a>				
+			</div>
+
+			<div class="col-md-8">
+				<h1 class="pull-left" style="position: relative; top: 26px;"><strong>Guwali </strong><small>Heart to Heart Connection</small></h1>
+			</div>
+		  		
+		  	<!-- social media -->
+			<div class="col-md-2">
+				<ul class="social pull-right">
+					<li><a href="https://www.facebook.com/guwali.np/" target="_blank" style="color: #fff; text-decoration: none;" class="fa fa-facebook-square fa-2x"></a></li>
+					<li><a href="#" target="_blank" style="color: #fff; text-decoration: none;" class="fa fa-twitter-square fa-2x"></a></li>
+					<!-- <li><a href="#" target="_blank" style="color: #fff; text-decoration: none;" class="fa fa-rss-square fa-2x"></a></li> -->
+					<li><a href="#" target="_blank" style="color: #fff; text-decoration: none;" class="fa fa-rss fa-2x"></a></li> 
+					<li><a href="#" target="_blank" style="color: #fff; text-decoration: none;" class="fa fa-youtube fa-2x"></a></li> 
+				</ul>
+			</div>
+			<!-- end social media  -->
+
+		</div>
+	</div>
+	<!-- end logo and name -->
+
+
+	<!--Menu bar-->
+	<nav class="navbar navbar-inverse" style="margin-bottom: 0px; border-radius: 0px;">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>			
+			<div class="collapse navbar-collapse" id="navbar-collapse"> 				
+				<ul class="nav navbar-nav">
+					<li><a href="index.html"><i class="fa fa-home fa-lg" style="font-size: 1.5em;" aria-hidden="true"></i>HOME</a></li>
+					<li><a href="about_us.html"><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i>WHO ARE WE?</a></li>
+					<li><a href="volunteers.html"><i class="fa fa-users fa-lg" aria-hidden="true"></i>VOLUNTEERS</a></li>
+					<li><a href="projects.html"><i class="fa fa-object-group fa-lg" aria-hidden="true"></i>PROJECTS</a></li>
+					<li><a href="gallery.html"><i class="fa fa-film fa-lg" aria-hidden="true"></i>GALLERY</a></li>
+					<!-- <li><a href="#blog" target="_blank"><i class="fa fa-rss fa-lg" aria-hidden="true"></i>BLOG</a></li> -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+
+	<!-- javascript -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+	<!-- fixed menu bar -->
+	<script>
+	$window = $(window);
+		$window.scroll(function() {				
+			$scroll_position = $window.scrollTop();
+		    if ($scroll_position > 135) /* if body is scrolled down by --- pixels */
+		    { 
+		        $('.navbar').addClass('sticky');
+		        $('.body').addClass('padding');			        
+		    } 
+		    else 
+		    {			        
+		        $('.navbar').removeClass('sticky');
+		        $('.body').removeClass('padding');
+		    }
+		});
+	</script>
+	<!-- end fixed menu bar -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/npm.js"></script>
+</body>
+</html>
